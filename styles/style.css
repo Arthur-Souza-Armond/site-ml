@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Poppins;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw
+}
+
+.esquerda{
+
+display: block;
+background-color: #77CC6D;
+width: 15vw;
+height: 100vh;
+
+
+}
+
+.esquerda >button{
+ display: block;
+ margin-bottom: 8px;
+ width: 15vw;
+ height: 50px;
+ background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #22392052;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  text-align: start;
+  padding: 10px;
+}
+
+button:hover,
+button:active {
+  background-color: rgba(255, 255, 255, 0.451);
+  background-position: 0 0;
+  color: #010000;
+}
+
+button:active {
+  opacity: .5;
+}
+
+
+.direita{
+    display: block;
+    background-color: #ECECEC;
+    width: 85vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div-array{
+    width: 100%;
+    height: 92.5%;
+    background-color: #ccc;
+    box-shadow: 0 0 0.3em inset black;
+}
+
+.header-direita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #77CC6D;
+    height: 4vw;
+    width: 85vw;
+   box-shadow: 0 0 0.3em inset #ccc;
+}
+
+.header-direita > h2 {
+    font-size: 25px;
+}
+
+.b1{
+    margin-top:3vh;
+}
+
+.esquerda >h1{
+    font-size: 30px;
+    margin-left: 1vw;
+    margin-top: 5vh;
+}
