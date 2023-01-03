@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap');
+body{
+    background-color: #201f44;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+}
+.container-apresentacao{
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.container-apresentacao h1{
+    background-color: rgb(251,215,0);
+    max-width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 3px 5px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.container-apresentacao h2{
+    color: rgb(251,215,0);
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 0;
+    max-width: 150px;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+.container-apresentacao h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    margin-top: 150px;
+    font-weight: 300;
+    text-align: center;
+}
+.container-apresentacao h4{
+    font-size: 1.3em;
+    color: rgb(251,215,0);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.container-apresentacao p{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;    
+    margin: 20px  0;
+    text-align: center;
+}
+.container-apresentacao button{
+    background-color: #F6E578;
+    padding: 10px;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 12px;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.video-treinamento{
+    color: #fff;
+    font-family: 'Montserrat';
+    background-color: #1F2034;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0 0 0.5em #000;
+    border: solid;
+    border-width: 1px 0px;
+    padding-bottom: 50px;
+}
+.video-treinamento h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #F6E578;    
+}
+.video-treinamento a{
+    color: greenyellow;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+.video-treinamento p{
+    font-size: 0.9em;
+}
+.video-treinamento h5{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 300;
+    text-align: center;
+    margin-top: 20px;
+}
+.video-treinamento button{
+    background-color: #F6E578;
+    padding: 10px;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 12px;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.video-treinamento div{
+    position: absolute;
+    z-index: 5;
+}
+.img-background{
+    position: relative;
+    opacity: 0.1;
+    width: 100%;
+    height: 75%;
+}
+
+.treinamento-pessoa{
+    padding: 20px;
+    color: #fff;
+}
+.treinamento-pessoa h2{
+    text-align: center;  
+    margin: 0;
+    margin-top: 25px;  
+}
+.treinamento-pessoa h2 span{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    background: #ffde06;
+    color: #201f44;
+    padding: 1px 0px;
+}
+.treinamento-pessoa h4{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-shadow: 0 0 0.2em #ffde06;
+    margin-bottom: 15px;
+}
+.treinamento-pessoa h2 a{
+    color: rgb(251,215,0);
+}
+.div-etapas-pessoa{
+    border: solid;
+    width: 50%;
+    margin: 5% 1%;
+    height: 250px;
+}
+.treinamento-pessoa div div{
+    position: absolute;
+    z-index: 5;
+    padding: 15px 5px;
+    width: 40%;
+}
+.treinamento-pessoa div img{
+    position: relative;
+    width: 100%;
+    opacity: .2;
+    border: none;
+    margin: 0;
+    height: 100%;
+    background-image: url('imgs/fundo-etapa.png');
+    background-size: cover;
+}
+.treinamento-pessoa div h3{
+    font-size: 2.5em;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+}
+.treinamento-pessoa div p{
+    color: #fff;
+    font-family: 'Montserrat';
+    width: 90%;
+    margin: 0px 5%;
+    font-size: 1.3em;
+}
+.treinamento-pessoa div p a{
+    color: rgb(251,215,0);
+}
+.treinamento-pessoa button{
+    background-color: #F6E578;
+    padding: 10px;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 12px;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.modulos-curso-accordeon{
+    padding: 40px 10px;
+    color: #fff;
+}
+.modulos-curso-accordeon h2{    
+    text-align: center;
+    margin: 0;
+}
+.modulos-curso-accordeon h2 span{
+    font-size: 1em;    
+    font-family: 'Poppins';
+    font-weight: bold;
+    background-color: #ffde06;
+    color: #201f44;
+    text-transform: uppercase;
+}
+.modulos-curso-accordeon h4{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-shadow: 0 0 0.2em #ffde06;
+    margin-bottom: 15px;
+}
+.modulos-curso-accordeon button{
+    background-color: #F6E578;
+    padding: 10px;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 12px;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 30px;
+}
+.div-acordeon{
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 15px 0px;
+}
+.div-acordeon h3{
+    font-size: 1.3em;
+    color: rgb(251,215,0);
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin: 0;
+}
+.div-acordeon div{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1em;
+    margin: 12px 0px;
+}
+
+.vantagens-treinamento{
+    padding: 40px 0px;
+    color: #fff;
+}
+.vantagens-treinamento button{
+    background-color: #F6E578;
+    padding: 10px;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 12px;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 30px;
+}
+.vantagens-treinamento h2{  
+    text-align: center;
+    margin: 0;
+}
+.vantagens-treinamento h2 span{
+    font-size: 1em;    
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: center;
+    color: #201f44;
+    background-color: #ffde06;
+    text-transform: uppercase;
+}
+.vantagens-treinamento h4{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-shadow: 0 0 0.2em #ffde06;
+}
+.vantagens-treinamento h2 a{
+    color: rgb(251,215,0);
+}
+.vantagens-treinamento div{
+    display: flex;
+    margin: 15px 0px;
+}
+.vantagens-treinamento div div{
+    width: 48%;
+    border: solid;
+    border-color: #fff;
+    margin: 0% 1%;
+    padding: 10px;
+    border-radius: 12px;
+}
+.vantagens-treinamento div div h3{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.vantagens-treinamento div div h3 a{
+    color: rgb(251,215,0);
+    font-size: 1.5em;
+}
+
+.depoimentos-alunos{
+    padding: 10px;
+}
+.depoimentos-alunos h2{
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-align: center;
+}
+.depoimentos-alunos h2 a{
+    color: rgb(251,215,0);
+}
+.depoimentos-alunos div{
+    color: #fff;
+}
+
+.bonus-treinamento{
+    padding: 40px 10px;
+    color: #fff;
+}
+.bonus-treinamento h2{  
+    text-align: center;
+    margin: 0;
+}
+.bonus-treinamento h2 span{
+    font-size: 1em;    
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: center;
+    color: #201f44;
+    background-color: #ffde06;
+    text-transform: uppercase;
+}
+.bonus-treinamento h4{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-shadow: 0 0 0.2em #ffde06;
+    margin-bottom: 30px;
+}
+.bonus-treinamento div{
+    border: solid;
+    border-color: #ffde06;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #153D6E;
+    font-family: 'Poppins';
+    margin: 3% 0%;
+}
+.bonus-treinamento span{
+    background: #ffde06;
+    color: #201f44;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    border-radius: 12px;
+}
+.bonus-treinamento h3{
+    margin: 0;
+    font-size: 2em;
+    text-shadow: 0 0 0.1em #F6E578;
+    margin-bottom: -5px;
+}
+.bonus-treinamento div a{
+    margin-top: -5px;
+    font-weight: bold;
+}
+.bonus-treinamento div p{
+    margin: 0;
+    font-size: 0.85em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.precos-treinamento{
+    height: 300px;
+    font-family: 'Montserrat';
+    padding: 10px;
+}
+.precos-treinamento h2{
+    margin: 0;
+}
+.precos-treinamento h2 span{
+    color: #201f44;
+    font-family: 'Poppins';
+    background-color: #ffde06;
+    text-transform: uppercase;
+    border-radius: 12px;
+    padding: 0px 3px;
+    font-size: 1em;
+}
+.precos-treinamento h3{
+    margin: 0;
+    color: #fff;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.2em #ffde06;
+}
+.precos-treinamento p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.85em;
+}
+.precos-treinamento span{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #fff;
+    font-family: 'Poppins';
+}
+.precos-treinamento span a{
+    text-decoration: line-through;
+}
+.precos-treinamento div{
+    color: #fff;
+}
+.precos-treinamento div span{
+    color: #ffde06;
+    font-size: 2em;
+}
+.precos-treinamento div span a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.precos-treinamento div p{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.precos-treinamento button{
+    background-color: #F6E578;
+    padding: 10px;
+    width: 90%;
+    margin: 0% 5%;
+    border-radius: 12px;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 30px;
+}

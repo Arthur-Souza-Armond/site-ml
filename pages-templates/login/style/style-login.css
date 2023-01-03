@@ -1,0 +1,258 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: "Poppins";
+    background-color: #ebebeb;
+}
+main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+}
+.login-esquerda{
+    display: block;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+.login-direita{
+    display: block;
+    width: 50%;
+    height: 100%;
+    background-image: url(imgs/login.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.85;
+}
+.login-instrucoes{
+    display: block;
+    width: 60%;
+    height: 30%;
+    padding-top: 25%;
+    margin: auto;
+}
+.login-instrucoes >h2 {
+    text-align: start;
+    font-weight: 400;
+}
+.login-instrucoes >p {
+    text-align: start;
+    font-size:1em;
+    color: #ccc;
+}
+.login-form{
+    display: block;
+    width: 60%;
+    height: 70%;
+    padding-top: 5%;
+   margin: auto;
+}
+.login-form > input{
+    display: block;
+    height: 8%;
+    width: 100%;
+    border: transparent;
+    border-radius: 7px;
+    background-color: #eae9e9;
+    padding-left: 10px;
+}
+.login-form>input:hover{
+    border: #ebebeb;
+}
+textarea:focus, input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    padding-left: 2%;
+}
+.login-form > input::placeholder{
+    padding-left: 2%;
+}
+.login-form>input:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+.consert-block{
+    display: block;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 1.5%;   
+}
+.consertar-icon{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.consertar-icon>label{
+height: 50%;
+width: 50%;
+margin-top:3%;
+font-weight: 600;
+}
+.consertar-icon>i{
+    
+height: 50%;
+margin-top:3%;
+margin-right:1%;
+font-weight: 600;
+}
+.login-form >a{
+    margin: auto;
+    display: block;
+    height: 5%;
+    width: 50%;
+    text-align: center;
+}
+.enviar{
+    border: none;
+}
+.esqueci-block{
+    height: 10%;
+    margin:auto;
+    padding-top: 3%;
+}
+.esqueci-flex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.esqueci{
+    color: #0000F2;
+    display: block;
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   text-align: center;
+}
+.esqueci:hover{
+    color: #0000F2;
+}
+button {
+  appearance: none;
+  background-color: #fde860;
+  border: 2px solid #fde860;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  outline: none; 
+  height: 8%;
+  width: 100%;
+  margin: auto;
+  margin-top: 6%;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  display: block;
+}
+button:disabled {
+  pointer-events: none;
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 3px 15px;
+  transform: translateY(-1px);
+}
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.siteML{
+    font-weight: 700;
+    color: #fde860;
+   text-shadow: 0.1px 0px 0.05em #FFFF00;
+}
+.cadastro{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.509);
+    display: block;
+    height: 5%;
+    padding-top: 10%;
+    margin-left: 5%;
+    font-size: 15px;
+    transition: 300ms;
+    text-align: center;
+}
+.cadastro:hover{
+    color: rgb(170, 170, 170);
+}
+.cadastro a{
+    color: #0000F2;
+}
+.cadastro a:hover{
+    cursor: pointer;
+}
+
+
+/* media queries*/
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+
+.login-instrucoes{
+    padding-top: 15%;
+}
+}
+
+@media screen and (min-width:776px) and (max-width:951px) {
+
+.login-instrucoes{
+    padding-top: 20%;
+}
+}
+
+@media screen  and (max-width:775px) {
+
+.login-instrucoes{
+    padding-top: 10%;
+}
+}
+
+ @media screen  and (max-width:775px) {
+
+.login-instrucoes{
+    padding-top: 10%;
+}
+}
+
+@media screen  and (max-width:580px) {
+
+    .login-instrucoes{
+        padding-top: 10%;
+    }
+    .login-instrucoes >h2{
+        font-size: 20px;
+    }
+    .login-instrucoes > P{
+        font-size: 17px;
+    }
+    .esqueci{
+        font-size: 15px;
+    }
+    .login-esquerda{
+       
+        width: 90%;
+    }
+    .login-direita{
+        
+        display: none !important;
+        visibility:hidden;
+        
+    }
+    
+    }

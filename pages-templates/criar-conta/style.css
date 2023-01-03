@@ -1,0 +1,212 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* Atributos Gerais das CSS*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body{
+    background-color: #ebebeb;
+    overflow-y: auto;
+}
+
+.cc-container{
+    height: 80vh;
+    width: 1400px;
+    margin: auto;
+    margin: 10vh auto;
+    display: flex;
+}
+/*Div antes do Main com instruções para cadastro*/
+.cc-instrucoes{
+    display: block;
+    height: 15%;
+    width: 100%;
+    background-color: #fde860;
+    box-shadow: 1px 1px 0.3em  #ccc;
+    text-align: center;
+    padding-top: 1%;
+}
+ .cc-main{
+height: 85%;
+width: 100%;
+display: block;
+background-color: white;
+box-shadow: 1px 1px 0.3em  #ccc;
+padding-top: 1%;
+} 
+.cc-menu1{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cc-menu1-sub1{
+    height: 100%;
+    width:700px;
+    display: block;
+}
+.cc-menu1-sub2{
+    height: 100%;
+    width:50%;
+    display: block;
+}
+.cc-menu2{
+    height: 100%;
+    width:100%;
+    display: none;
+}
+
+.child-main-content input{
+    display: block;
+    height: 8%;
+    width: 60%;
+    margin-left: 15%;
+    border: 0ch;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.294) ;
+    padding-left: 10px;
+    transition: all 200ms;
+    margin-bottom: 2%;
+    
+    
+}
+textarea:focus, input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    padding-left: 2%;
+}
+input:focus{
+    border-bottom: 3px solid #fde860; 
+}
+/* Tirar setinha de input number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.child-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cc-centralizar{
+    display: block;
+    margin: auto;
+}
+.child-main-content select{
+   
+    display: block;
+    height: 8%;
+    width: 60%;
+    border: solid;
+    border-radius: 7px;
+    color: gray;
+    background-color: #eae9e9;
+    padding-left: 10px;
+    margin-left: 15%;
+    border:0;
+    background-color: white;
+}
+.child-main-content select option{
+    height:8%;
+}
+
+.child-main-content select:focus{
+    border-bottom: 3px solid #fde860; 
+    border: none;
+   
+}
+
+.child-main-content label{
+    font-weight: 500;
+    margin-left: 15%;
+    display: block;
+
+}
+
+i{
+    color: white;
+}
+
+
+
+/* Souza */
+.sidebar-criar-conta{
+    background-color: #48A5EA;
+    width: 15%;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    padding: 18% 0%;
+}
+.sidebar-criar-conta button{
+    max-width: 25%;
+    margin: 0% 35%;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-radius: 15px;
+    border-color: #fff;
+    padding: 10px;
+}
+.sidebar-criar-conta button:hover{
+    background-color: #fde860;
+    cursor: pointer;
+    border-color: #fde860;
+    box-shadow: 0 0 0.3em #ccc;    
+}
+.sidebar-criar-conta p{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.container-inputs{
+   
+    background-color: #fff;
+    padding: 10px;
+    width: 85%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.child-main-content h2{
+    color: #48A5EA;
+    margin: 15px;
+    margin-top: 2%;
+    margin-left: 15%;
+    
+}
+
+.info-assinatura{ display: flex; }
+.info-assinatura div{ width: 50%; }
+.container-info-assinatura select{
+    padding: 3px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 70%;
+}
+
+aside{
+    width: 50%;
+    height: 70%;
+    background-color: grey;
+}
+.container-info-assinatura select:invalid { color: gray; }
+
+.h2-assinatura{
+    color: black !important;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 3%;
+}
+.container-info-assinatura label{
+    padding-top:5%;
+}
