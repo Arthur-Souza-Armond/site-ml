@@ -9,6 +9,9 @@ body{
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 30px;
+    background-image: url('imgs/lucas.png');
+    background-position: center;
+    background-size: cover;
 }
 .container-apresentacao h1{
     background-color: rgb(251,215,0);
@@ -482,4 +485,10 @@ body{
     font-family: 'Poppins';
     font-weight: bold;
     margin-top: 30px;
+}
+.sobre-mim{
+    height: 500px;
+    background-image: url('imgs/sobre-mim-lucas.png');
+    background-position: center;
+    background-size: cover;
 }
